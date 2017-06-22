@@ -10,11 +10,14 @@
 .container-fluid {
 	background-color: #a7d3dc;
 	width: 100%;
+	padding-right: 0;
+	padding-left: 0;
 }
 
 .navbar {
 	margin-bottom: 0;
 	width: 100%;
+	border: none;
 }
 
 	/* COLORFUL FLAT */
@@ -271,16 +274,105 @@
 
 /*--------------------------------*/
 
+/*PINK SECTION */
 
+.pink {
+	background-color: #dcb1c2;
+}
 
+.header-pink {
+	margin-top: 2%;
+	color: #fff;
+	font-family: 'Bitter', serif;
+}
 
+.pink i {
+	margin: 2%;
+}
 
+.fa-facebook-square {
+	color: #27378c;
+}
 
+.fa-twitter-square {
+	color: #228bc7;
+}
 
+.fa-pinterest-square {
+	color: #a2223b;
+}
 
+/* BLUE SECTION */
 
+.header-blue {
+	margin-top: 2%;
+	color: #fff;
+	font-family: 'Bitter', serif;
+}
 
+.thumbnail>.caption h3 {
+	font-size: large;
+}
 
+.thumbnail>.caption h4 {
+	font-size: small;
+}
+
+.thumbnail>img {
+	width: 100%;
+}
+
+/* FORM SECTION */
+
+.form {
+	background-color: #3b3b3b;
+}
+
+.header-form {
+	margin-top: 2%;
+	color: #cfcfcf;
+	font-family: 'Bitter', serif;
+}
+
+/* FORM */
+
+.form-group {
+	width: 40%;
+	margin-left: 30%;
+}
+
+#message {
+	height: 100px;
+}
+
+form .btn.btn-default {
+	margin-top: 3%;
+	margin-left: 45%;
+}
+
+/* FOOTER */
+
+.footer>.row>.col-md-6 i {
+	color: #3b3b3b;
+	width: 6%;
+	background-color: #515151;
+	border-radius: 50%;
+	margin-left: 1%;
+}
+
+.footer>.row>.col-md-6>.webdesign {
+	margin-left: 10%;
+	color: #837e60;
+}
+
+.footer>.row>.col-md-6>.copy {
+	margin-left: 2%;
+	color: #515151;
+}
+
+.footer>.row {
+	border-top: 1px solid #515151;
+}
 
 
 
