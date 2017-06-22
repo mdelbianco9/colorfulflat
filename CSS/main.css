@@ -1,0 +1,286 @@
+* {
+	margin: 0;
+}
+
+/*.nav.navbar.navbar-default {
+	padding-bottom: 0;
+}*/
+	
+	/* THE WHOLE NAVBAR */
+.container-fluid {
+	background-color: #a7d3dc;
+	width: 100%;
+}
+
+.navbar {
+	margin-bottom: 0;
+	width: 100%;
+}
+
+	/* COLORFUL FLAT */
+.navbar-default .navbar-brand{
+	color: #1e1e1e;
+	font-size: medium;
+}
+
+.navbar-left {
+	margin-left: 15%;
+}
+
+	/* ALL PILLS */
+.nav-pills {
+	margin-top: 1%;
+}
+
+	/* HOME BUTTON */
+.nav-pills>li.active>a {
+	color: #1e1e1e;
+	background-color: #a7d3dc;
+	font-size: medium;
+}
+
+	/* HOME BUTTON HOVER*/
+.nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	color: #fff;
+	background-color: #1e1e1e;
+
+}
+	/* OTHER BUTTONS */
+.nav-pills>li>a {
+	color: #1e1e1e;
+	background-color: #a7d3dc;
+	font-size: medium;
+}
+
+	/* OTHER BUTTONS HOVER */
+.nav-pills>li>a:focus, .nav-pills>li>a:hover {
+	color: #fff;
+	background-color: #1e1e1e;
+}
+
+	/* MOVES PILLS TO RIGHT */
+.nav {
+	margin-left: 45%;
+}
+
+	/* HEART */
+.glyphicon-heart {
+	color: #1e1e1e;
+}
+
+/* -----------CAROULSEL------------------ */
+/* USE TO FIT SCREEN OF CAROULSEL */
+.carousel-inner {
+	padding-top: 6%;
+	padding-bottom: 6%;
+	height: 350px;
+}
+/* STYLES H1 ELEMENTS */
+.item>h1 {
+	display: inline-block;
+	text-align: center;
+	margin-left: 20%;
+	margin-top: 5%;
+	font-size: 50px;
+	color: #fff;
+	font-family: 'Bitter', serif;
+}
+/* STYLES IMAGES */
+.item>img {
+	width: 30%;
+	float: right;
+	margin-right: 15%;
+}
+/* CHNAGES 2ND SLIDE */
+.item.text2>h1 {
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+.item.text2>img {
+	width: 20%;
+	margin-right: 15%;
+}
+/* CHANGES 3RD SLIDE */
+.item.text3>h1 {
+
+}
+
+.item.text3>img {
+	width: 20%;
+	margin-bottom: 20%;
+}
+
+
+/*-------------------------------*/
+/* WHITE SECTION AFTER CAROULSEL */
+
+.col-md-3 {
+	margin: 2%;
+}
+
+.col-md-3 img {
+	width: 75%;
+	text-align: center;
+}
+
+.col-md-3 h3, p {
+	font-family: 'Bitter', serif; 
+}
+
+/* TARGETS EACH IMAGE SEPERATLY */
+.one img {
+	margin: auto;
+	width: 80%;
+	margin-top: 20%;
+	margin-bottom: 30%;
+}
+
+.two img {
+	margin: auto;
+	margin-bottom: 15%;
+}
+
+.three img {
+	margin: auto;
+	margin-top: 10%;
+	margin-bottom: 20%;
+}
+
+/* CENTERS ELEMENTS IN WHITE BOX*/
+.row {
+	text-align: center;
+	padding-left: 10%;
+	padding-top: 2%;
+}
+/*------------------------------------*/
+
+/* GREEN BOX */
+
+.green {
+	background-color: #9ad3a6;
+}
+
+/* HEADER OF GREEN */
+.green-header {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	margin-left: 34%;
+	color: #fff;
+	font-family: 'Bitter', serif;
+}
+
+.green-header h2 {
+	word-spacing: 8px;
+	letter-spacing: 3px;
+	font-weight: 600;
+}
+
+.green-header p {
+	color: #f2f3f5;
+}
+
+/* UNORDERED LIST */
+.list-inline {
+	margin-top: 6%;
+	margin-bottom: 1%;
+	text-align: center;
+}
+
+.list-inline li {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+/* BUTTONS */
+.list-inline a {
+	color: #fff;
+	font-size: large;
+	font-family: 'Bitter', serif;
+	font-weight: 200;
+	padding: 5%;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.list-inline a:hover{
+	background-color: #fff;
+	color: #56595b;
+}
+
+/* IMAGES */
+.tab-content {
+	padding: 5%;
+}
+
+.tab-content img {
+	display: inline-block;
+	width: 25%;
+	margin: 3%;
+}
+
+.tab-content img:hover{
+	box-shadow: 30px 30px 30px #484b4b;
+}
+
+.btn {
+	margin-left: 40%;
+	margin-bottom: 5%;
+}
+
+/* GREY BOX */
+
+.grey-section {
+	background-color: #eeeeee;
+}
+
+/* ALIGNS TEXT */
+.col-md-5 {
+	text-align: left;
+	font-family: 'Bitter', serif;
+}
+
+.col-md-5 h2 {
+	font-size: medium;
+	font-weight: bold;
+}
+
+.col-md-5 p {
+	font-size: small;
+}
+
+/* CHANGES BUTTON PROPERTIES */
+.col-md-5>.btn {
+	margin-left: 0;
+	background-image: none;
+	background-color: #9ad3a6;
+	color: #fff;
+	font-weight: 200;
+}
+
+.col-md-5>.right {
+	background-color:  #a7d3dc; 
+}
+
+.row {
+	margin-top: 3%;
+	margin-bottom: 1%;
+}
+
+/*--------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
